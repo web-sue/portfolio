@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+/* 共通部分-------------------------------------*/
+html{font-size: 100%;}
+
+body{
+    font-family: "Open Sans","Noto Sans JP";
+    line-height: 1.5;
+    color: #432;
+}
+
+/* ヘッダー-------------------------------------*/
+.page-header .wrapper{
+    border-bottom:3px solid #20B2AA;
+}
+.logo{
+    height: 90px;
+    margin-top: 11px;
+}
+.main-nav{
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+.main-nav li{
+    margin-left: 36px;
+    letter-spacing: 0.01em;
+}
+.main-nav a{color: #432;}
+.main-nav a:hover{color: #20B2AA;}
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+/* TOP-------------------------------------*/
+.top{
+    margin: 25vh auto;}
+.top h2{
+    font-size: 60px;
+    color: #20B2AA;
+    letter-spacing: 0.10em;
+    text-align: center;
+}
+.top p{
+    font-size: 38px;
+    color: #20B2AA;
+    text-align: center;
+}
+
+/* WORKS-------------------------------------*/
+.works{
+    background-color: rgba(68, 51, 34, .2);
+    margin-bottom: 20px;
+}
+.works h2{
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    letter-spacing: 0.08em;
+    margin-bottom: 40px;
+    padding-top: 30px;
+}
+.works-list{
+    display: grid;
+    gap: 26px;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 3%;
+    grid-template-columns: repeat(3,minmax(240px,1fr)) ;
+    margin-top: 6%;
+    margin-bottom: 50px;
+}
+.item img{
+    width :100%;
+    object-fit: cover;
+}
+
+/* ABOUT-------------------------------------*/
+.about-name{
+    display: flex;
+    margin-left: 200px;
+}
+.about h2{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    letter-spacing: 0.08em;
+}
+.about h3{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+.about p{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.photo img{
+    width: 410px;
+    height: 340px;
+    object-fit: cover;
+    margin-left: 80px;
+}
+
+/* CONTACT-------------------------------------*/
+.contact{
+    border-top: 3px solid #20B2AA;
+    margin-top: 30px;
+}
+.contact h2{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    letter-spacing: 0.08em;
+}
+.contact p{ 
+    text-align: center;
+}
+.contact-list{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30PX;
+}
+.contact-item{
+    margin-right: 15px;
+}
+
+/* FOOTER-------------------------------------*/
+footer{
+    text-align: center;
+    background-color: #432;
+    color: #fff;
+    padding: 20PX 0;
+}
+
+/* WORKS-BANNER-------------------------------------*/
+.banner-list{
+    padding-top: 30px;
+    text-align: center;
+}
+.banner-list img{
+    width: 500px;
+    height: 500px;
+    margin-bottom: 20px;
+}
+.banner-list h2{
+    margin-bottom: 5px;
+}
+.banner-list p{
+    margin-bottom: 5px;
+}
+/* WORKS-CARD-------------------------------------*/
+.card-list{
+    padding-top: 30px;
+    text-align: center;
+}
+.card-list img{
+    width: 50% ;
+    height: auto;
+    margin-bottom: 20px;
+    box-shadow:0 0 10px  #432;
+}
+.card-list h2{
+    margin-bottom: 5px;
+}
+.card-list p{
+    margin-bottom: 5px;
+}
+/* LP-----------------------------*/
+.lp-list{
+    padding-top: 30px;
+    text-align: center;
+}
+.lp img{
+    width: 50% ;
+    height: auto;
+    margin-bottom: 20px;
+    box-shadow:0 0 10px  #432;
+}
+.lp-list h2{
+    margin-bottom: 10px;
+}
+.lp-list p{
+    margin-bottom: 5px;
+}
+.lp-list h1{
+    margin-bottom: 40px;
+    color: #432;
+    font-size: 1.5rem;
+}
+/* SITE-----------------------------*/
+.site-list{
+    padding-top: 30px;
+    text-align: center;
+}
+.site img{
+    width: 50% ;
+    height: auto;
+    margin-bottom: 20px;
+    box-shadow:0 0 10px  #432;
+}
+.site-list h2{
+    margin-bottom: 10px;
+}
+.site-list p{
+    margin-bottom: 5px;
+}
+.site-list h1{
+    margin-bottom: 40px;
+    color: #432;
+    font-size: 1.5rem;
+}
